@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
-from main import create_connection, select_all, get_table_name
+from data import create_connection, select_all, get_table_name
 
 label = ['a', 'b', 'c', 'd']
 x_vertical = [900, 1800, 4000, 4110]
 color = ['r', 'y', 'b', 'g']
 
 if __name__ == '__main__':
-    conn = create_connection("example.db")
+    conn = create_connection("sqlite.db")
     TABLE_NAME = get_table_name()
     zoomdata = select_all(conn, TABLE_NAME)
     x_time = []
