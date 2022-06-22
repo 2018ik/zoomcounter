@@ -2,7 +2,7 @@
 kiwisolver==1.2.0
 matplotlib==3.2.2
 mss==6.0.0
-numpy==1.19.0
+numpy==1.22.0
 opencv-python==4.3.0.36
 Pillow==8.1.1
 pyparsing==2.4.7
