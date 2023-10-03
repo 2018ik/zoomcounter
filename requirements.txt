@@ -1,10 +1,10 @@
-﻿cycler==0.10.0
+cycler==0.10.0
 kiwisolver==1.2.0
 matplotlib==3.2.2
 mss==6.0.0
 numpy==1.19.0
 opencv-python==4.3.0.36
-Pillow==8.1.1
+Pillow==10.0.1
 pyparsing==2.4.7
 pytesseract==0.3.4
 python-dateutil==2.8.1
